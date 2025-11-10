@@ -1,0 +1,211 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://img.freepik.com/free-photo/abstract-empty-smooth-light-pink-studio-room-background-use-as-montage-product-displaybannertemp_1258-54117.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333; /* Improved text color for better readability */
+}
+h2 {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  h2:hover {
+    transform: scale(1.1);
+    color: #673AB7; /* Improved hover color */
+}
+
+h1, h2 {
+    font-size: 40px;
+    color: #673AB7; /* Improved heading color */
+}
+
+h3 {
+    font-size: 30px;
+    color: #673AB7; /* Improved heading color */
+}
+
+p{
+	font-size:20px;
+}
+h4{
+	font-size:20px;
+	color:purple;
+}
+
+
+.intro-text {
+            font-size: 24px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+/* Your existing styles... */
+
+h1#main-heading {
+    cursor: pointer;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+h1#main-heading:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+    animation: shake 0.5s ease; /* Add a shake animation on click */
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    20%, 60% {
+        transform: translateX(-5px);
+    }
+    40%, 80% {
+        transform: translateX(5px);
+    }
+}
+
+
+
+header {
+    background-color: #AED581;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+            transition: color 0.3s ease-in-out; /* Adding a color transition effect */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #673AB7;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out; /* Adding a color transition effect */
+        }
+
+        nav a:hover {
+            color: #663399; /* Change the color on hover */
+        }
+
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #AED581;
+    color: black;
+}
+
+/* Your existing styles... */
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-container img {
+   width:250px;
+   height:250px;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out; /* Add the transition property for animation */
+}
+
+.image-container img:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+}
+
+/* Add your styles for individual sections as needed */
+/* Your existing styles... */
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #AED581;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #AED581;
+}
+
+#feedbackForm {
+        text-align: center;
+    }
+
+    #feedbackForm label {
+        display: block;
+        margin: 10px auto;
+    }
+
+    #feedbackMessage {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    #feedbackForm button {
+        margin: 10px auto;
+    }
+/* CSS for Online Booking and Ordering Facility Section */
+#online-facility {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.booking-options,
+.food-ordering-options {
+    margin-top: 30px;
+}
+
+.booking-options a,
+.food-ordering-options a {
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.booking-options img,
+.food-ordering-options img {
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.booking-options a:hover img,
+.food-ordering-options a:hover img {
+    transform: scale(1.1);
+}
